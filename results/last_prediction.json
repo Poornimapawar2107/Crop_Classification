@@ -1,0 +1,22 @@
+{
+  "image": "D:\\Crop_Classification\\data\\dataset\\test\\Wheat\\wheat_0003.jpeg",
+  "prediction": "Wheat",
+  "confidence": 0.9629,
+  "confidence_pct": "96.3%",
+  "top_3_predictions": [
+    {
+      "class": "Wheat",
+      "confidence": 0.9629
+    },
+    {
+      "class": "Rice",
+      "confidence": 0.0369
+    },
+    {
+      "class": "Other",
+      "confidence": 0.0001
+    }
+  ],
+  "uncertainty": "LOW",
+  "needs_manual_review": false
+}

@@ -1,0 +1,19 @@
+Crop Classification — Test Set Evaluation Report
+============================================================
+
+Overall Accuracy:  0.9213 (92.13%)
+Balanced Accuracy: 0.9234 (92.34%)
+Macro-F1 Score:    0.8753
+
+              precision    recall  f1-score   support
+
+      Cotton     0.9867    0.9867    0.9867        75
+       Maize     0.6522    1.0000    0.7895        15
+       Other     0.9672    0.7867    0.8676        75
+        Rice     0.7059    0.9231    0.8000        13
+     Soybean     0.9737    0.9867    0.9801        75
+       Wheat     0.8000    0.8571    0.8276        14
+
+    accuracy                         0.9213       267
+   macro avg     0.8476    0.9234    0.8753       267
+weighted avg     0.9353    0.9213    0.9229       267

@@ -1,0 +1,22 @@
+{
+  "image": "D:\\Crop_Classification\\data\\extracted\\flooded\\maize\\maize_03.png",
+  "clip_model": "ViT-B-32 (laion2b_s34b_b79k)",
+  "note": "All values are image-text cosine similarity scores (softmax-normalised). They are NOT calibrated probabilities or confirmed diagnoses. Field-condition scores have not been evaluated against labelled examples.",
+  "crop_type": {
+    "Cotton": 0.0002,
+    "Maize": 0.0031,
+    "Other": 0.0061,
+    "Rice": 0.9904,
+    "Soybean": 0.0001,
+    "Wheat": 0.0
+  },
+  "crop_type_highest": "Rice",
+  "field_condition": {
+    "Healthy": 0.0,
+    "Flooded": 0.994,
+    "Drought-affected": 0.0,
+    "Visibly diseased or damaged": 0.0033,
+    "Unclear / mixed condition": 0.0027
+  },
+  "field_condition_highest": "Flooded"
+}
